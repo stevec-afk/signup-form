@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+@font-face {
+    font-family: "Norse Bold";
+    src: url("./assets/Norse-Bold.otf");
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.img-block {
+    display: flex; 
+    flex: 3;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+    background-image: url(./assets/leaf-background.avif);
+    background-position: center center;
+    background-size: cover;
+
+}
+
+.banner {
+    display: flex;
+    padding: 48px;
+    justify-content: center;
+    margin-top: 20vh;
+    font-size: 5.5rem;
+    font-family: "Norse Bold";    
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.banner img {
+    height: 125px;
+}
+
+.main {
+    background-color: #f9fafb;
+    display: flex;
+    flex: 5;
+    flex-direction: column;
+    justify-content:center
+}
+
+.message {
+    padding-left: 48px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    max-width: 85%;
+    padding-bottom: 2em;
+}
+
+.inputs {
+    display: grid;
+    @media (width > 720px){
+        grid-template-columns: minmax(80px, auto) 1fr;
+    }
+    grid-template-rows: auto auto auto;
+    gap: 15px;
+    column-gap: 84px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 12px 24px 12px 48px;
+}
+
+.inputs h1 {
+    grid-column: 1 / -1 ;
+    font-size: 1.25rem;
+}    
+
+.form-group {
+    display: grid;
+}
+
+.inputs input{
+    margin-bottom: 12px;
+    max-width: 200px; 
+    padding: 4px 8px;
+}
+
+.inputs label {
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    margin-bottom: 1px;
+}
+
+form p{
+    padding-left: 48px;
+    margin: 0px;
+}
+
+button {
+    background-color: #596D48;
+    color: white;
+    padding: 12px 48px;
+    margin: 32px 48px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    box-shadow: 2px 5px 5px 4px rgba(0, 0, 0, 0.1);
+}
+
+#login-link {
+    color: #596D48;
+    font-weight: bold;
+    text-decoration: none;
+}
