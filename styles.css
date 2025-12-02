@@ -113,3 +113,7 @@ button {
     font-weight: bold;
     text-decoration: none;
 }
+
+#attribution a {
+    color: white;
+}
