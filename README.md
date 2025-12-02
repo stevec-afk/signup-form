@@ -3,6 +3,8 @@ Sign-up form project - TOP
 
 Simple sign-up form to practice styling forms using just HTML and CSS using reference image.
 
+Live page here: https://stevec-afk.github.io/signup-form
+
 Limitations as per TOP project page:
 - No password validation, since this requires javascript
 - Doesn't need to look nice on mobile 
